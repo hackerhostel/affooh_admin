@@ -90,7 +90,7 @@ function Sidebar() {
           <div className="flex-grow flex flex-col items-center py-5 space-y-6">
             <MenuItem link="/dashboard" Icon={Squares2X2Icon}/>
             <MenuItem link="/organizational" Icon={FolderIcon}/>
-            <MenuItem link="/role" Icon={UserPlusIcon}/>
+            <MenuItem link="/userManagement" Icon={UserPlusIcon}/>
             <MenuItem link="/assetManagement" Icon={DocumentTextIcon}/>
             <MenuItem link="/processFramework" Icon={WrenchScrewdriverIcon}/>
             <MenuItem link="/reviewAndAudits" Icon={ArrowUpCircleIcon}/>

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import MainPageLayout from "../../layouts/MainPageLayout.jsx";
-import RoleListPage from "./RoleListPage.jsx";
-import RoleContentPage from "./RoleContentPage.jsx";
+import UserManagementListPage from "./UserManagementListPage.jsx";
+import UserManagementContentPage from './UserManagementContentPage.jsx'
 
-const RoleLayout = () => {
+const UserManagementLayout = () => {
   const [selectedFolderId, setSelectedFolderId] = useState(null);
   const [selectedDocument, setSelectedDocument] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -22,18 +22,18 @@ const RoleLayout = () => {
 
   return (
     <MainPageLayout
-      title="Roles and Responsibilities"
+      title="User Management"
       leftColumn={
-        <RoleListPage
+        <UserManagementListPage
           selectedFolderId={selectedFolderId}
           onSelect={setSelectedFolderId}
           onDocumentSelect={handleDocumentSelect}
         />
       }
-      rightColumn={<RoleContentPage selectedDocument={selectedDocument} />}
+      rightColumn={<UserManagementContentPage selectedDocument={selectedDocument} />}
       onAction={onAddNew}
     />
   );
 };
 
-export default RoleLayout;
+export default UserManagementLayout;
