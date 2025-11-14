@@ -62,7 +62,7 @@ const User = () => {
     const [editingRowId, setEditingRowId] = useState(null);
     const [openActionRowId, setOpenActionRowId] = useState(null);
 
-    // User cell renderer
+   
     const renderUserCell = (user) => {
         if (!user)
             return <span className="text-gray-400 italic">No user</span>;
