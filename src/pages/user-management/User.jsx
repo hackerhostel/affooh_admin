@@ -33,7 +33,7 @@ const User = () => {
         { id: "scrum3", name: "scrum3" },
     ]);
 
-    // Dummy data
+  
     const [rows, setRows] = useState([
         {
             id: 1,
