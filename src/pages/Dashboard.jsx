@@ -23,6 +23,7 @@ import ObjectivesAndKPIsLayout from "./Objectives-KPIs/index.jsx";
 import TrainingPlansLayout from "./Training-plans/index.jsx";
 import OperationLayout from "./Operation-management/index.jsx";
 import UserManagementLayout from "./user-management/index.jsx";
+import ChatLayout from "./chat/index.jsx";
 import {doGetProjectBreakdown, selectSelectedProject} from "../state/slice/projectSlice.js";
 import {isNotEmptyObj} from "../utils/commonUtils.js";
 import EditTaskPage from "../pages/sprint-page/editTask/index.jsx"
@@ -118,6 +119,11 @@ const Dashboard = () => {
             <Route path="/userManagement">
               <UserManagementLayout />
             </Route>
+
+            <Route path="/chat">
+              <ChatLayout />
+            </Route>
+
 
             <Route path="/sprints/:sprint_id">
               <SprintLayout />

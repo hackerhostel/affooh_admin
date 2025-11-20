@@ -88,9 +88,10 @@ function Sidebar() {
         <div className="flex flex-col h-full justify-between">
           {/* Menu items section */}
           <div className="flex-grow flex flex-col items-center py-5 space-y-6">
-            <MenuItem link="/dashboard" Icon={Squares2X2Icon}/>
-            <MenuItem link="/organizational" Icon={FolderIcon}/>
             <MenuItem link="/userManagement" Icon={UserPlusIcon}/>
+            <MenuItem link="/chat" Icon={FolderIcon}/>
+            {/* <MenuItem link="/dashboard" Icon={Squares2X2Icon}/>
+            <MenuItem link="/organizational" Icon={FolderIcon}/>
             <MenuItem link="/assetManagement" Icon={DocumentTextIcon}/>
             <MenuItem link="/processFramework" Icon={WrenchScrewdriverIcon}/>
             <MenuItem link="/reviewAndAudits" Icon={ArrowUpCircleIcon}/>
@@ -98,9 +99,9 @@ function Sidebar() {
             <MenuItem link="/training" Icon={AcademicCapIcon}/>
             <MenuItem link="/operations" Icon={ArrowPathIcon}/>
             <MenuItem link="/sprints" Icon={CalendarIcon}/>   
-            {/* <MenuItem link="/test-plans" Icon={TableCellsIcon}/>  */}
+            <MenuItem link="/test-plans" Icon={TableCellsIcon}/> 
             <MenuItem link="/projects" Icon={Square3Stack3DIcon}/>
-            <MenuItem link="/profile" Icon={UsersIcon}/>
+            <MenuItem link="/profile" Icon={UsersIcon}/> */}
             
             <div className="flex flex-col items-center ">
               {!loading ? (

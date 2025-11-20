@@ -152,11 +152,11 @@ const User = () => {
                 <table className="table-auto w-full border-collapse">
                     <thead>
                         <tr className="text-left border-b border-gray-200 text-secondary-grey">
-                            <th className="py-3 px-2">#</th>
-                            <th className="py-3 px-2">User</th>
-                            <th className="py-3 px-2">Role</th>
-                            <th className="py-3 px-2">Email</th>
-                            <th className="py-3 px-2">Contact</th>
+                            <th className="py-3 px-2 text-center">#</th>
+                            <th className="py-3 px-2 text-center">User</th>
+                            <th className="py-3 px-2 text-center">Role</th>
+                            <th className="py-3 px-2 text-center">Email</th>
+                            <th className="py-3 px-2 text-center">Contact</th>
                             <th className="py-3 px-2">Actions</th>
                         </tr>
                     </thead>
